@@ -7,7 +7,7 @@ html lang="en"
     meta name="description" content="Provides previews of themes for the Atom editor"
     meta name="author" content="Lee Dohm"
 
-    title = gettext "Atom Theme Previews"
+    title = gettext "Atom Themes"
     link rel="stylesheet" href="#{static_path(@conn, "/css/app.css")}"
 
   body
@@ -15,7 +15,7 @@ html lang="en"
       .container
         a.masthead-logo href="/"
           = mega_octicon(:paintcan)
-          = gettext "Atom Theme Preview"
+          = gettext "Atom Themes"
 
     .container
       = if get_flash(@conn, :info) do

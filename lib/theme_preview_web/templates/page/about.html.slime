@@ -1,8 +1,8 @@
 .columns
   .five-fifths.column.about-text
-    h1 About Atom Theme Preview
+    h1 = gettext "About Atom Themes"
     p
-      = gettext "Atom Theme Preview is a website for previewing "
+      = gettext "Atom Themes is a website for previewing "
       a href="https://atom.io" = gettext "Atom text editor"
       = gettext " themes."
     hr
