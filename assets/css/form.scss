@@ -1,0 +1,11 @@
+@import 'node_modules/primer-support/lib/variables/colors';
+
+textarea.tweak-textarea {
+  min-height: 200px;
+  font-family: monospace;
+}
+
+.errored .form-control,
+.errored .form-select {
+  box-shadow: 0 0 5px $red-500;
+}

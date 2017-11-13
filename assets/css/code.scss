@@ -1,0 +1,11 @@
+@import 'node_modules/primer-support/lib/variables/typography';
+
+tt,
+code {
+  font-size: $body-font-size;
+}
+
+.hljs-comment,
+.hljs-quote {
+  font-style: normal;
+}

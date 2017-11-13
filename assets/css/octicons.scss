@@ -1,0 +1,38 @@
+@import 'node_modules/primer-support/lib/variables/colors';
+
+.octicons {
+  display: inline-block;
+  vertical-align: text-bottom;
+  user-select: none;
+}
+
+.tweak-title .octicons {
+  vertical-align: bottom;
+}
+
+.menu-item .octicons {
+  margin-right: 5px;
+  text-align: center;
+  fill: $gray-900;
+}
+
+.masthead a {
+  path {
+    fill: transparentize($white, .5);
+  }
+
+  &:hover {
+    path {
+      fill: $white;
+    }
+  }
+}
+
+.masthead-logo .octicons {
+  margin-right: 5px;
+  vertical-align: -2px;
+
+  path {
+    fill: $white;
+  }
+}
