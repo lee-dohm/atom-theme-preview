@@ -66,7 +66,8 @@ defmodule ThemePreview.Mixfile do
   defp aliases do
     [
       "ecto.setup": ["ecto.create", "ecto.migrate", "run priv/repo/seeds.exs"],
-      "ecto.reset": ["ecto.drop", "ecto.setup"],
+      "ecto.ci": ["ecto.create", "ecto.migrate"],
+      "ecto.reset": ["ecto.drop", "ecto.setup"]
       "espec": ["ecto.create --quiet", "ecto.migrate", "espec"]
     ]
   end
