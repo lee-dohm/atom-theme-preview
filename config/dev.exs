@@ -36,8 +36,8 @@ config :theme_preview, ThemePreviewWeb.Endpoint,
     patterns: [
       ~r{priv/static/.*(js|css|png|jpeg|jpg|gif|svg)$},
       ~r{priv/gettext/.*(po)$},
-      ~r{lib/atom_theme_preview_web/views/.*(ex)$},
-      ~r{lib/atom_theme_preview_web/templates/.*(eex)$}
+      ~r{lib/theme_preview_web/views/.*(ex)$},
+      ~r{lib/theme_preview_web/templates/.*(eex)$}
     ]
   ]
 
@@ -53,6 +53,6 @@ config :theme_preview, ThemePreview.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
   password: "postgres",
-  database: "atom_theme_preview_dev",
+  database: "theme_preview_dev",
   hostname: "localhost",
   pool_size: 10

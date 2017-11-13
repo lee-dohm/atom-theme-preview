@@ -28,7 +28,7 @@ defmodule ThemePreviewWeb do
 
   def view do
     quote do
-      use Phoenix.View, root: "lib/atom_theme_preview_web/templates",
+      use Phoenix.View, root: "lib/theme_preview_web/templates",
                         namespace: ThemePreviewWeb
 
       # Import convenience functions from controllers
@@ -40,6 +40,8 @@ defmodule ThemePreviewWeb do
       import ThemePreviewWeb.Router.Helpers
       import ThemePreviewWeb.ErrorHelpers
       import ThemePreviewWeb.Gettext
+
+      import PhoenixOcticons
     end
   end
 

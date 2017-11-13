@@ -50,6 +50,7 @@ defmodule ThemePreview.Mixfile do
       {:phoenix_slime, "~> 0.9.0"},
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
+      {:phoenix_octicons, "~> 0.2.0"},
       {:phoenix_live_reload, "~> 1.0", only: :dev},
       {:ex_doc, "~> 0.16", only: :dev, runtime: false},
       {:espec_phoenix, "~> 0.6.9", only: :test}

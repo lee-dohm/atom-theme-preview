@@ -14,6 +14,6 @@ config :theme_preview, ThemePreview.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
   password: "postgres",
-  database: "atom_theme_preview_test",
+  database: "theme_preview_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox

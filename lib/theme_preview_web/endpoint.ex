@@ -35,7 +35,7 @@ defmodule ThemePreviewWeb.Endpoint do
   # Set :encryption_salt if you would also like to encrypt it.
   plug Plug.Session,
     store: :cookie,
-    key: "_atom_theme_preview_key",
+    key: "_theme_preview_key",
     signing_salt: "iBAczDEa"
 
   plug ThemePreviewWeb.Router
