@@ -1,0 +1,10 @@
+.columns
+  .five-fifths.column.about-text
+    h1 About Atom Theme Preview
+    p
+      = gettext "Atom Theme Preview is a website for previewing "
+      a href="https://atom.io" = gettext "Atom text editor"
+      = gettext " themes."
+    hr
+    p
+      em = gettext "Atom and the Atom logo are registered trademarks of GitHub, Inc."
